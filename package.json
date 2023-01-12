@@ -1,0 +1,19 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "automated testing",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^2.2.0",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "Faker": "^0.7.2"
+  }
+}
